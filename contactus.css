@@ -1,0 +1,96 @@
+body {
+    background-color: #1c1c1c;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+ul.nav.justify-content-center.border-bottom.pb-3.mb-3 {
+    padding-bottom: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+img.d-block.w-100 {
+    object-fit: contain;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    gap: 1rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-section h2 {
+    font-weight: bold;
+}
+
+.social-profiles i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #835b5b;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info .icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+#form-control {
+    margin-bottom: 20px;
+}
+
+.btn-send {
+    color: #2e2a27;
+    background-color: #835b5b;
+}
+
+.btn-send:hover {
+    color: #ffffff;
+    background-color: #5f3737;
+}
+
+.contact-info.mb-3 {
+    border: 2px solid grey;
+    box-shadow: 2px 2px 15px #757575;
+}
+
+.contact-info {
+    border: 2px solid grey;
+    box-shadow: 2px 2px 15px #757575;
+}
+
+/* testimonial*/
+.testimonial {
+    margin: 0 15px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    footer.d-flex.flex-wrap.justify-content-between.align-items-center.py-3.my-4.border-top {
+        gap: 20px;
+    }
+}
