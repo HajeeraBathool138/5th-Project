@@ -145,4 +145,14 @@ h1 {
     .education-title {
         font-size: 34px;
     }
+
+    .row {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 2rem;
+    }
 }
