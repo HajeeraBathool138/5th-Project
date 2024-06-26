@@ -166,8 +166,19 @@ h1 {
     }
 }
 
+@media (max-width: 991px) {
+    .timeline-item {
+        width: 85%;
+    }
+
+}
+
 @media (max-width: 768px) {
     .row {
         gap: 2rem;
+    }
+
+    .timeline-item {
+        width: 90%;
     }
 }
