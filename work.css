@@ -231,9 +231,3 @@ body {
         height: auto;
     }
 }
-
-@media (min-width: 992px) {
-    .container.text-light .row .col-6 {
-        width: 50%;
-    }
-}

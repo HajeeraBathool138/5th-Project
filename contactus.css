@@ -94,3 +94,12 @@ img.d-block.w-100 {
         gap: 20px;
     }
 }
+
+.contact-info a {
+    color: #815353;
+    text-decoration: none;
+}
+
+i.fab:hover {
+    color: #fff3f3;
+}
