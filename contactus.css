@@ -55,22 +55,26 @@ img.d-block.w-100 {
 }
 
 #form-control {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 .btn-send {
-    color: #2e2a27;
-    background-color: #835b5b;
+    color: #ffffff;
+    background-color: #5f3737;
+    margin-top: 1.5rem;
 }
 
 .btn-send:hover {
-    color: #ffffff;
-    background-color: #5f3737;
+    /* color: #ffffff;
+    background-color: #5f3737; */
+    color: #e5c2c2;
+    background-color: #835b5b;
 }
 
 .contact-info.mb-3 {
     border: 2px solid grey;
     box-shadow: 2px 2px 15px #757575;
+    margin-bottom: 1.5rem !important;
 }
 
 .contact-info {
@@ -102,4 +106,64 @@ img.d-block.w-100 {
 
 i.fab:hover {
     color: #fff3f3;
+}
+
+.col-md-6 {
+    width: 47%;
+    padding-top: 6px;
+}
+
+.col-col-apps {
+    width: 30%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.bi {
+    font-size: 60px !important;
+    color: #8a5151;
+    border-right: 1px solid white;
+    padding: 0px 40px;
+}
+
+.bi:hover {
+    color: #583030 !important;
+    cursor: pointer !important;
+}
+
+.contact-details {
+    font-size: 25px !important;
+    font-weight: 600 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+i.fab {
+    font-size: 25px;
+    margin: 0 10px;
+    color: #835b5b;
+}
+
+.ms-4 a {
+    color: #815353;
+}
+
+p.ms-4 {
+    margin-left: 4rem !important;
+    padding-top: 10px;
+}
+
+.mb-3.d-flex {
+    margin-top: 1rem !important;
+}
+
+i.fas.fa-share-alt {
+    font-size: 60px !important;
+    color: #8a5151;
+    border-right: 1px solid white;
+    padding: 10px 40px;
 }
