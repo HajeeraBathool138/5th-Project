@@ -152,6 +152,10 @@ i.fab {
     color: #815353;
 }
 
+.ms-4 a:hover {
+    color: #4099db;
+}
+
 p.ms-4 {
     margin-left: 4rem !important;
     padding-top: 10px;
@@ -166,4 +170,8 @@ i.fas.fa-share-alt {
     color: #8a5151;
     border-right: 1px solid white;
     padding: 10px 40px;
+}
+
+i.fas.fa-share-alt:hover {
+    color: #583030;
 }
