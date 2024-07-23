@@ -199,6 +199,14 @@ i.fas.fa-share-alt:hover {
     background-color: #afb5bb !important;
 }
 
+#theme-toggle:checked~.theme-container .contact-info.mb-3 {
+    background-color: #e5dcd0;
+}
+
+#theme-toggle:checked~.theme-container #form-control {
+    background-color: #e5e7e9;
+}
+
 #theme-toggle:checked~.theme-container ul.border-bottom {
     border-bottom: 1px solid #838383 !important;
 }
