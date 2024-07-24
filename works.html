@@ -16,6 +16,24 @@
             transition: background-color 0.5s, color 0.5s;
         }
 
+        body h1,
+        body h2,
+        body h3,
+        body h4 {
+            font-family: "Roboto Slab", serif !important;
+            font-weight: 400 !important;
+            font-size: 3rem !important;
+        }
+
+        body p,
+        body span,
+        body li,
+        body a {
+            font-family: "Ubuntu", sans-serif !important;
+            font-size: 1rem !important;
+        }
+
+
         .theme-toggle-label {
             cursor: pointer;
             display: inline-block;
@@ -85,7 +103,9 @@
         #theme-toggle:checked~.theme-container a,
         #theme-toggle:checked~.theme-container p,
         #theme-toggle:checked~.theme-container span,
-        #theme-toggle:checked~.theme-container h2 {
+        #theme-toggle:checked~.theme-container h1,
+        #theme-toggle:checked~.theme-container h2,
+        #theme-toggle:checked~.theme-container h3 {
             color: #1c1c1c !important;
         }
 
@@ -107,6 +127,15 @@
 
         #theme-toggle:checked~.theme-container ul.border-bottom {
             border-bottom: 1px solid #838383 !important;
+        }
+
+        #project1 h1 {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .container .row {
+            padding-bottom: 5rem !important;
         }
     </style>
 </head>
@@ -158,6 +187,7 @@
     <div class="theme-container">
 
         <div class="container text-light" id="project1">
+            <h1>Till Now Projects</h1>
             <div class="row pt-3">
                 <div class="col-6">
                     <h2 class="project-title">PROJECT 01</h2>
